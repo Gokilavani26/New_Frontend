@@ -1,0 +1,483 @@
+  body {
+    width: 100%;
+    background-color: white;
+  }
+
+*{
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+
+  /* ABOUT COMPANY */
+ 
+  #sec2{
+    padding: 2%;
+    background-color: #c8e6f3;
+    background-image: url("https://img.freepik.com/free-photo/white-particle-lines-futuristic-gradient-background_53876-102621.jpg?w=740&t=st=1688475045~exp=1688475645~hmac=7c52bb85152ab1a394bb6a260f7c90df5232c58608b25d71b2d8eb51c4555eaf");
+    background-repeat: no-repeat;
+    background-size: cover  ;
+ }
+
+  .box-background {
+   
+    box-shadow: 5px 10px #afaeae;
+    margin: 70px auto 0 auto;
+    background: white no-repeat;
+    background-size: cover;
+    height: 35rem;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    z-index: 2;
+    overflow-y: auto;
+    margin-bottom: 9%;
+    font-size: 16px;
+
+  }
+
+  .box-background::-webkit-scrollbar {
+    display: none;
+  }
+
+ .box-right{
+    text-align: justify;
+    margin-left: 0;
+ }
+
+ .box-left{
+  align-content: right;
+  overflow: hidden;
+  text-align: justify; 
+}
+
+.girl-gif{
+    height: 68%;
+    width: 73%;
+    margin-left: 6%;
+ }
+
+.title-txt{
+  padding: auto;
+  font-size: 35px;
+  font-weight:bolder;
+  text-align: center;
+  color: rgb(34, 67, 104); 
+ }
+
+
+  /* ABOUT COMPANY */
+
+  /* Milestones */
+
+ #sec3{
+  background-color: white ;
+  padding: 7%;
+ }
+
+.title-mile{
+  color: black;
+  font-family:'Chakra Petch', sans-serif;
+  padding: auto;
+  font-size: 35px;
+  font-weight:bolder;
+  text-align: center;
+}
+
+
+.miles{
+  background: rgb(205,148,233);
+  background: radial-gradient(circle, rgba(205,148,233,1) 0%, rgba(238,174,202,1) 100%);
+  border-radius: 20px;
+  padding: 5%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#roadmap{
+   height: 60%;
+   border-radius: 20px;
+}
+
+  /* Milestones */
+
+
+  /* PROFILE */
+
+  .title-t{
+    color: white ;
+    font-family:'Chakra Petch', sans-serif;
+    padding: auto;
+    font-size: 35px;
+    font-weight:bolder;
+    text-align: center;
+  }
+
+  #sec4{
+    background-image: url("https://i.gifer.com/IrM.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family:'Chakra Petch', sans-serif;
+  }
+  
+  .profile-area{
+    padding: 80px 0;
+  }
+  .card{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 10%;
+    padding: 5%;
+    margin: 19px;
+    box-sizing: border-box;
+  }
+
+  .card:hover {
+    transform: translate(0, -15px);
+    }
+
+  .img1 h1{
+    padding: 2px;
+    text-align: center;
+    height: 135px;
+    font-weight: bolder;
+    border-radius: 35px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size:xx-large;
+    color: black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 2%;
+    padding-top: 20px;
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .slide-left{
+    transition: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    
+  }
+
+  .slide-right{ 
+    transition: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInRight;
+  }
+
+  .slide-left2{
+    animation-duration: 2s;
+  }
+  .slide-right2{ 
+    animation-duration: 2s;
+  }
+
+  .mem1{
+    background-color: #FAE7FA;
+  }
+
+  .mem2{
+    background-color: #C2C9E7;
+  }
+
+  .mem3{
+    background-color: #8BC0D5;
+  }
+  .mem4{
+    background-color: #f1c6a2;
+  }
+
+  .mem5{
+    background-color: #e7faef;
+
+  }
+
+  .mem6{
+    background-color: #bea0d3;
+  }
+  .img2 img{
+    position: relative;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   z-index: 1;
+   width: 160px;
+   height: 160px;
+   border-radius: 50%;
+   border: 7px solid #fff;
+   margin-top: -80px;
+   margin-bottom: 0;
+
+  }
+
+  .card:hover img2 img{
+    border-color: darkcyan;
+    transition: .7s;
+  }
+
+  .main-text{
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .main-text p{
+    font-size: 20px;
+    padding-top:30px;
+    text-transform: uppercase;
+    
+  }
+
+  .socials{
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+  .socials i{
+    font-size: 24px;
+    color: #2F667F;
+    padding: 10px;
+  }
+
+  .socials i:hover {
+    transform: translate(0, -5px);
+    color: black;
+    }
+
+  @keyframes slideInDown {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .reveal{
+    transition: 0.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInDown;
+  }
+
+  
+  .reveal2{
+    transition: 0.5s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInDown;
+  }
+  
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 36px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  
+}
+
+.card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* FOOTER */
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 80px;
+  padding: 20px 50px;
+  display: flex;
+  margin-top: 12%;
+  
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+.menu1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+.add1{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 200px;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+.add2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+     margin: 0 10px;
+  }
+footer p{
+    text-align: center;
+}
+/* FOOTER */
