@@ -8,6 +8,7 @@
 }
 
 /* NAVBAR */
+/* NAVBAR */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -111,7 +112,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background: rgba(40, 58, 90, 0.9);
 }
 
 #header.header-scrolled,
@@ -509,7 +509,9 @@ h6 {
   }
 }
 
+
 /* NAVBAR */
+
 
 
   /* ABOUT COMPANY */
@@ -646,7 +648,7 @@ h6 {
     transform: translate(0, -15px);
     }
 
-.img1 h1{
+  .img1 h1{
     padding: 1px;
     text-align: center;
     height: 155px;
@@ -734,8 +736,8 @@ h6 {
    margin-left: auto;
    margin-right: auto;
    z-index: 1;
-   width: 160px;
-   height: 160px;
+   width: 150px;
+   height: 150px;
    border-radius: 50%;
    border: 7px solid #fff;
    margin-top: -80px;
