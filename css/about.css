@@ -645,10 +645,10 @@ h6 {
     transform: translate(0, -15px);
     }
 
-  .img1 h1{
-    padding: 2px;
+.img1 h1{
+    padding: 1px;
     text-align: center;
-    height: 135px;
+    height: 155px;
     font-weight: bolder;
     border-radius: 35px;
     width: 100%;
