@@ -9,39 +9,42 @@
    
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   
+     <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;1,300&display=swap" rel="stylesheet">
-   
+     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="css/about.css">
-     <!-- vendor -->
 
-<!--    <link href="vendor/aos/aos.css" rel="stylesheet">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
-   
+   <script src="js/main.js"></script>
+    
+      <link href="js/vendor/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+     <link href="js/vendor/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+     <link href="js/vendor/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+     <link href="js/vendor/vendor/remixicon/remixicon.css" rel="stylesheet">
+     <link href="js/vendor/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+     
 </head>
 <body>
       <!-- Header -->
-      <header id="header" class="fixed-top ">
-        <div class="container d-flex align-items-center">
-    
-          <h1 class="logo me-auto"><a href="index.html">Punchbiz</a></h1>
-          <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-              <li><a class="nav-link scrollto active" href="about.html">About</a></li>
-              <li><a class="nav-link scrollto" href="card.html">Product</a></li>
-              <li><a class="nav-link   scrollto" href="client.html">Client</a></li>
-              <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav>
-        </div>
-      </header>
+        <section>
+          <header id="header" class="fixed-top ">
+            <div class="container d-flex align-items-center">
+              <h1 class="logo me-auto"><a href="index.html"><img alt="no" src="images/Logo_Punchbiz.jpg" ></a></h1>
+              <nav id="navbar" class="navbar">
+                <ul>
+                  <li><a class="nav-link scrollto nav-link-ltr" href="about.html">Home</a></li>
+                  <li><a class="nav-link scrollto nav-link-ltr active" href="#">About</a></li>
+                  <li><a class="nav-link scrollto nav-link-ltr" href="product">Product</a></li>
+                  <li><a class="nav-link   scrollto nav-link-ltr" href="client">Client</a></li>
+                  <li><a class="nav-link scrollto nav-link-ltr" href="contact.html">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+              </nav>  
+            </div>
+          </header>
+
+   
+            
+        </section>
       <!-- Header -->
 
       <!-- About Company -->
@@ -67,8 +70,8 @@
 <!--MileStones-->
 <section id="sec3" class="sec ">  
   <h1 class="title-mile"><b>OUR MILESTONES</b></h1>  <br>
-       <div class="row reveal miles">
-          <img src="picture/timelinee.png" alt="no" id="roadmap">
+       <div class="row reveal">
+          <img src="/images/time.png" alt="no" class="miles" id="roadmap">
        </div>
 </section>
 <!--MileStones-->
@@ -77,14 +80,14 @@
 
     <section id="sec4" class="sec container-fluid">
         <br>
-   <h1 class="title-t text-light mt-4"><b>ELITE TEAM</b></h1>
+   <h1 class="title-t mt-4"><b>ELITE TEAM</b></h1>
           <div class="profile-area">
-            <div class="container">
+            <div class="container-fluid ">
 
               <div class="row">
 
-               <div class="col-md-4 slide-left"> 
-                <div class="card ">         
+               <div class="col-md-6 slide-left top1"> 
+                <div class="card top">         
                   <div class="img1"><h1 class="main-txt mem1">Sriram</h1></div>   
                   
                   <div class="flip-card">
@@ -107,8 +110,9 @@
                 </div>
                </div>
 
-               <div class="col-md-4 reveal"> 
-                <div class="card">         
+               
+               <div class="col-md-6 top1 slide-right"> 
+                <div class="card top">         
                   <div class="img1"><h1 class="main-txt mem2">Vignesh</h1></div> 
                   <div class="flip-card">
                     <div class="flip-card-inner">
@@ -132,32 +136,32 @@
                </div>
 
 
-               <div class="col-md-4 slide-right"> 
-                <div class="card">         
-                  <div class="img1"><h1 class="main-txt mem3">Gururaj</h1></div>        
-                  <div class="flip-card">
-                    <div class="flip-card-inner">
-                      
-                  <div class="img2 flip-card-front"><img src="images/team1.jpg" alt=""></div> 
-                  <div class="img2 flip-card-back"><img src="images/team1.jpg" alt=""></div> 
-                  </div>
-                  </div>
-                   <div class="main-text">
-                   
-                     <p>Test Lead</p>
-                  </div>
-                  <div class="socials">
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-linkedin"></i>
-                    <i class="fa fa-twitter"></i>
-                    <i class="fa fa-instagram "></i>
-                   </div>
-                </div>
-               </div>
-        <br><br>
                <div class="row">
+                <div class="col-md-3 slide-left slide-left2"> 
+                  <div class="card">         
+                    <div class="img1"><h1 class="main-txt mem3">Gururaj</h1></div>        
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        
+                    <div class="img2 flip-card-front"><img src="images/team1.jpg" alt=""></div> 
+                    <div class="img2 flip-card-back"><img src="images/team1.jpg" alt=""></div> 
+                    </div>
+                    </div>
+                     <div class="main-text">
+                     
+                       <p>Test Lead</p>
+                    </div>
+                    <div class="socials">
+                      <i class="fa fa-facebook"></i>
+                      <i class="fa fa-linkedin"></i>
+                      <i class="fa fa-twitter"></i>
+                      <i class="fa fa-instagram "></i>
+                     </div>
+                  </div>
+                 </div>
 
-                <div class="col-md-4 slide-left slide-left2"> 
+                <div class="col-md-3 reveal2"> 
+                  
                  <div class="card">         
                    <div class="img1"><h1 class="main-txt mem4">Gowtham</h1></div>        
                    <div class="flip-card">
@@ -180,7 +184,7 @@
                  </div>
                 </div>
  
-                <div class="col-md-4 reveal2"> 
+                <div class="col-md-3 reveal2"> 
                  <div class="card">         
                    <div class="img1"><h1 class="main-txt mem5">Manoj Sasidharan</h1></div>        
                    <div class="flip-card">
@@ -203,7 +207,7 @@
                  </div>
                 </div>
 
-                <div class="col-md-4 slide-right slide-right2"> 
+                <div class="col-md-3 slide-right slide-right2"> 
                  <div class="card">         
                    <div class="img1"><h1 class="main-txt mem6">Sanjai Sakthivel</h1></div>        
                    <div class="flip-card">
@@ -230,59 +234,25 @@
           </div>
          </section>
                <!-- Team -->
+<br>
+               <!--Contact-->
+ <section id="sec" class="sec container-fluid">
+<br>
+</section>
+                <!--Contact-->
 
       <!--Footer-->
-      <section>
-        <footer class="footer">
-          <div class="waves" style="margin: 10px 0;">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-          </div>
-          <ul class="menu1">
-              <li class="menu__item" >
-                  <div class="add1"><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;<h3>Registered Office</h3></div>
-                  <div class="add1">89/2/36, Vasagasalai Street, </div>
-                  <div class="add1">Ponnamapet,</div>
-                  <div class="add1">Salem, Tamil Nadu, India - 636001</div>
-              </li>
-              <li class="menu__item">
-                  <div class="add1"><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;<h3>Branch Office</h3></div>
-                  <div class="add1">Room 2,3 rd floor, </div>
-                  <div class="add1">Plot No 8 MS Complex Sastri</div>
-                  <div class="add1">Nagar Kolathur,Chennai-600099</div>
-              </li>
-          </ul>
-          <ul class="social-icon">
-            <li class="social-icon__item"><a class="social-icon__link" href="#">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="#">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="#">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a></li>
-            <li class="social-icon__item"><a class="social-icon__link" href="#">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a></li>
-          </ul>
-          <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Product</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Client</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-        
-          </ul>
-          <p>&copy;2023 Punchbiz | All Rights Reserved</p>
-        </footer>
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
-       
-      </section>
+      
       <!--Footer-->
       
+      
+
+  <script src="js/vendor/vendor/aos/aos.js"></script>
+  <script src="js/vendor/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/vendor/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="js/vendor/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="js/vendor/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="js/vendor/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="js/vendor/vendor/php-email-form/validate.js"></script>
 </body>
 </html>
