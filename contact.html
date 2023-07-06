@@ -14,49 +14,53 @@
 
     <link rel="stylesheet" href="css/contact.css">
     
-  <!-- Vendor CSS Files -->
-<!--   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+   <script src="js/main.js"></script>
+    
+   <link href="js/vendor/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="js/vendor/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="js/vendor/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="js/vendor/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="js/vendor/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
 
 </head>
 <body>
-   <!-- Header -->
-   <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
+    <!-- Header -->
+    <section>
+      <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+          <h1 class="logo me-auto"><a href="index.html"><img alt="no" src="images/Logo_Punchbiz.jpg" ></a></h1>
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto nav-link-ltr" href="about.html">Home</a></li>
+              <li><a class="nav-link scrollto nav-link-ltr active" href="about.html">About</a></li>
+              <li><a class="nav-link scrollto nav-link-ltr" href="product">Product</a></li>
+              <li><a class="nav-link   scrollto nav-link-ltr" href="client">Client</a></li>
+              <li><a class="nav-link scrollto nav-link-ltr" href="contact.html">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>  
+        </div>
+      </header>
 
-      <h1 class="logo me-auto"><a href="index.html">Punchbiz</a></h1>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li><a class="nav-link scrollto" href="card.html">Product</a></li>
-          <li><a class="nav-link   scrollto" href="client.html">Client</a></li>
-          <li><a class="nav-link scrollto active" href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
 
-    </div>
-  </header>
+        
+    </section>
+  <!-- Header -->
+
     <!-- Header -->
 
-    <div id="texts">
-       <p>To Know More</p>
-       <p id="line">Get In Touch !</p>
-       <p id="para">We're here to listen, Contact us and share your feedback</p>
+    <div id="texts"><br><br>
+       <p></p>
+       <p id="line">To Know More !</p>
     </div>
 
 
 
     <!-- FORM -->
-    <section>
+    <!-- <section>
     <div class="container" id="top-row">
-      <!-- Bricks-->
+    
       <div class="row">
         <div class="col-md-4 brick">
           <p><ion-icon class="icon" name="location"></ion-icon></p>
@@ -70,20 +74,20 @@
           <p><ion-icon class="icon" name="mail"></ion-icon></p>
           <p><a href="mailto:thepunchbi@gmail.com">thepunchbiz@gmail.com</a></p>
         </div>   
-     <!-- Bricks-->
+    
       </div>
      </div>
-     </section>
+     </section> -->
 
      <section id="sec3">
 
-      <form action="form-process.php" method="POST">
+      <form action="#" method="POST">
        <div class="container row contact-form">
           <div class="col-md-6">
             <br><br>  
              <h2>Contact Form</h2><br>
              <div class="feild">
-              <label>Name</label><br>
+              <label>Name * </label><br>
               <input type="text" name="fullName" placeholder="  Name"/>
              </div>
 
@@ -126,57 +130,6 @@
    <!--Map-->
 
    <!-- Footer -->
-   <section>
-
-    <footer class="footer">
-      <div class="waves" style="margin: 10px 0;">
-        <div class="wave" id="wave1"></div>
-        <div class="wave" id="wave2"></div>
-        <div class="wave" id="wave3"></div>
-        <div class="wave" id="wave4"></div>
-      </div>
-      <ul class="menu1">
-          <li class="menu__item" >
-              <div class="add1"><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;<h3>Registered Office</h3></div>
-              <div class="add1">89/2/36, Vasagasalai Street, </div>
-              <div class="add1">Ponnamapet,</div>
-              <div class="add1">Salem, Tamil Nadu, India - 636001</div>
-          </li>
-          <li class="menu__item">
-              <div class="add1"><i class='fa fa-map-marker-alt'></i>&nbsp;&nbsp;<h3>Branch Office</h3></div>
-              <div class="add1">Room 2,3 rd floor, </div>
-              <div class="add1">Plot No 8 MS Complex Sastri</div>
-              <div class="add1">Nagar Kolathur,Chennai-600099</div>
-          </li>
-      </ul>
-      <ul class="social-icon">
-        <li class="social-icon__item"><a class="social-icon__link" href="#">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a></li>
-        <li class="social-icon__item"><a class="social-icon__link" href="#">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a></li>
-        <li class="social-icon__item"><a class="social-icon__link" href="#">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a></li>
-        <li class="social-icon__item"><a class="social-icon__link" href="#">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a></li>
-      </ul>
-      <ul class="menu">
-        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Product</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Client</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-    
-      </ul>
-      <p>&copy;2023 Punchbiz | All Rights Reserved</p>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
-   
-   </section>
 
    <!-- Footer -->
 
