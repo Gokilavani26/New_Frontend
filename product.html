@@ -113,7 +113,7 @@
  }
 
       .img-left{
-        background-color:#8686872c;
+        background-color:#ffffff;
       }
       .img-right{
         background-color: #ffffff;
@@ -160,22 +160,23 @@
    
 
  .bg{
-     /*background-color: rgb(147, 129, 111);*/
-   background-image: url("https://i.gifer.com/ByRk.gif");
+  background-image: linear-gradient(-60deg, rgb(254, 241, 230) 50%, rgba(107, 165, 181, 0.475) 50%);
+   /* background-image: url("https://i.gifer.com/ByRk.gif");
    height: 100%; 
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
    border-radius: 20px;
    box-shadow: 5px 5px rgb(171, 169, 169);
  }
 
  .bg1{
-     background-image: url("https://i.gifer.com/embedded/download/ByRk.gif");
+     /* background-image: url("https://i.gifer.com/embedded/download/ByRk.gif");
    height: 100%; 
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
+   background-image:linear-gradient(60deg, rgba(107, 165, 181, 0.475) 50%, rgb(254, 241, 230) 50%);
    border-radius: 20px;
    box-shadow: 5px 5px rgb(171, 169, 169);
  }
@@ -735,6 +736,7 @@ footer p{
   display: block;
 }
 
+/* card-animation */
 
      </style>
 </head>
@@ -749,12 +751,12 @@ footer p{
 
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto nav-link-ltr " href="index.html">Home</a></li>
-        <li><a class="nav-link scrollto nav-link-ltr" href="about.html">About</a></li>
-        <li><a class="nav-link scrollto nav-link-ltr active" href="product.html">Product</a></li>
-       <!--  <li><a class="nav-link   scrollto nav-link-ltr" href="client.html">Client</a></li> -->
+        <li><a class="nav-link scrollto nav-link-ltr " href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto nav-link-ltr" href="new.html">About</a></li>
+        <li><a class="nav-link scrollto nav-link-ltr active" href="#">Product</a></li>
+        <!-- <li><a class="nav-link   scrollto nav-link-ltr" href="#">Client</a></li> -->
        
-        <li><a class="nav-link scrollto nav-link-ltr" href="contact.html">Contact</a></li>
+        <li><a class="nav-link scrollto nav-link-ltr" href="#contact">Contact</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav>
@@ -762,75 +764,80 @@ footer p{
   </div>
 </header>
    <section id="product-icons">
-    <div class="container" style="margin-top: 100px;">
+    <div class="container-fluid" style="margin-top: 80px;">
       
-    <div class="card">
+    <div class="card" style="background-color: rgb(219, 222, 224);">
       
         <h3 class="card-title text-center icon-heading">
-          <div class="section-title">
+          <div class="section-title ">
             <h2>Product</h2>
           </div>
         </h3>
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
               <div class="circular-image">
               <a href="#Brains-description"><img src="picture/Brains.jpg" alt="Image 1"></a> 
               </div>
               <h1 class="icon-name">Brains</h1>
             </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="circular-image">
               <a href="#CrickVision-description"><img src="picture/cv.jpg" alt="Image 2"></a>
             </div>
             <h1 class="icon-name">CrickVision</h1>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="circular-image">
               <a href="#Exit-description"><img src="picture/exit.jpg" alt="Image 3" height="95%" width="95%"></a>
             </div>
             <h1 class="icon-name">Exit</h1>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="circular-image">
               <a href="#exploreDshape-description"><img src="picture/ExploreDshape.jpg" alt="Image 4"></a>
             </div>
             <h1 class="icon-name">ExploreDShape</h1>
           </div>
+          <div class="col-md-2"></div>
+          
         </div><span class="line-break"></span>     
        
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
               <div class="circular-image">
                 <a href="#buybest-description"><img src="https://punchbiz.co/img/buybest.png" alt="Image 1"></a>
               </div>
               <h1 class="icon-name">Buy Best</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
               <div class="circular-image">
                 <a href="#voice-description"><img src="https://punchbiz.co/img/voice.png" alt="Image 2"></a>
               </div>
               <h1 class="icon-name">Voice Modal</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
               <div class="circular-image">
                 <a href="#intruder-description"><img src="https://punchbiz.co/img/intruder.png" alt="Image 3"></a>
               </div>
               <h1 class="icon-name">Intruder Watch</h1>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
               <div class="circular-image">
                 <a href="#autoannotate-description"><img src="picture/autoannotate.jpg" alt="Image 4"></a>
               </div>
               <h1 class="icon-name">Auto Annotation</h1>
             </div>
+            <div class="col-md-2"></div>
           </div><span class="line-break"></span>
         <br>
         <h3 class="card-title text-center icon-heading">
-          <div class="section-title">
+          <div class="section-title mt-3">
             <h2>Software as a Service</h2>
           </div>
-        </h3><br>
-          <div class="row ">
+        </h3>
+          <div class="row mb-3">
             <div class="col-md-3"></div>
             <div class="col-md-3 ">
               <div class="circular-image">
@@ -863,7 +870,7 @@ footer p{
         <h4 class="text-center sub-heading">AI-Powered Learning for the Next Generation</h4>
           <div class="row ">
             <div class="col-lg-6 order-lg-1 ">
-              <img src="picture/Brains.jpg" class="rounded mx-auto d-block pt-5 imag reveal" alt="Image 1" height="300px" width="300px">
+              <img src="picture/Brains.jpg" class="rounded mx-auto d-block pt-5 imag reveal" style="border-radius: 20px;" alt="Image 1" height="300px" width="300px">
             </div>
             <div class="col-lg-6 order-lg-2">
               <p class="text-justify p-5 para reveal">Brains is an innovative educational AI coding platform designed to help students of all ages learn to code in a fun and interactive way. Our platform utilizes artificial intelligence and machine learning algorithms to personalize the learning experience for each individual student. With Brains, students can work through coding challenges and projects at their own pace, receiving real-time feedback and guidance along the way. Our platform covers a wide range of programming languages, from beginner-friendly languages like Scratch to more advanced languages like python. Whether you're a complete beginner or a seasoned coder, Brains has everything you need to take your coding skills to the next level. With its userfriendly interface and engaging learning experience, Brains is the perfect tool for anyone looking to boost their coding knowledge and skills.</p>
