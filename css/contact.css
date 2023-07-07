@@ -335,68 +335,34 @@ body {
 
 #texts #line{
   padding: 0;
- color: #023F81;
+ color: #37517e;
  font-size: 30px;
  font-weight: bolder;
 }
 
-#texts #para{
-  color: #023F81;
-  font-weight:normal;
- }
-
-#top-row{
-  position: absolute;
-  margin-left: 10%;
-}
-
-.brick{
-    box-shadow: 0 0 0 0.5;
-    border-radius: 20px;
-    color: black;
-    background-color: rgb(216, 209, 209);
-    position: relative;
-    width: 9%;
-    padding: auto;
-    margin-left: 14%;
-}
-
-.brick ion-icon{
-  padding-top: 12px;
-  height: 40px;
-  width: 60px;
-}
-
-.brick p{
-  display: flex;
-  color: black;
-  text-decoration: none;
-  overflow-wrap: break-word;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: larger;
-}
-
-.brick p :link{
-  color: black;
-  text-decoration: none;
-  font-size: small;
-}
 
 /* FORM */
 
-.contact-form{
-  border-radius: 30px;
-  background: rgb(88,77,250);
-  background: radial-gradient(circle, rgba(88,77,250,1) 0%, rgba(128,151,241,1) 52%, rgba(84,207,240,1) 100%); width: 80%;
-  margin: auto;
-  margin-top: 4%;
-  color: white;
-  padding: 45px;
-  padding-bottom: 80px;
-
+#sec3{
+  padding-right: 19%;
+  padding-left: 10%;
 }
+
+.contact-form{
+  font-family: 'Jost', sans-serif;
+  color: #37517e;
+  border-radius: 30px;
+  background: rgb(222, 233, 233);
+  /* background: radial-gradient(circle, rgba(88,77,250,1) 0%, rgba(128,151,241,1) 52%, rgba(84,207,240,1) 100%); width: 80%; */
+
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 2%;
+  padding-bottom: 80px;
+  box-shadow:2px 2px 2px 2px #7385a5;
+}
+
+
 
 #message{
   margin-top: 10px;
@@ -408,15 +374,22 @@ body {
 label{
   font-size: 20px;
   font-weight: bold;
-  padding: 5px;
+  padding: 7px;
 }
 
 input{
+  box-shadow: 1px 1px rgb(179, 177, 177);
+  border: none;
+  outline: none;
   margin-left: 2%;
   height: 45px;
-  width: 70%;
+  width: 95%;
   border-radius: 10px;
 }
+ input :focus{
+  border: none;
+  outline: none;
+ }
 
 .feild{
   margin-top: 20px;
@@ -436,11 +409,64 @@ input{
 }
 /* FORM */
 
+/* details */
+  
+#sec4{
+ background-color: #ece9e3;
+ 
+}
+
+.detail-box{
+  font-family: 'Jost', sans-serif;
+  color: #37517e;
+  margin: auto;
+  padding: 2%;
+  padding-bottom: 80px;
+}
+
+.details{
+  padding: 2%;
+  justify-content: center;
+  padding-right: 20%;
+}
+
+.list{
+  list-style: none;
+  margin-top: 3%;
+}
+
+
+.list li ion-icon{
+  color: #37517e;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+
+.contents{
+  margin-left: 25px;
+}
+
+
+.sub-title{
+  color: #37517e;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform:capitalize;
+}
+
+
+.bricks :hover{
+  transform: translateY(0, -20px);
+} 
+/* details
+
 /* MAP */
+ 
 
 .gmap{
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);  
+  background-color: #c3c3c4;
+  /* background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);   */
   width: 100%;
   height: 100%;
   padding: 2%;
