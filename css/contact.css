@@ -83,12 +83,12 @@ body {
   margin-left: 5px;
 }
 
- .navbar a:hover,
+.navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: rgb(14, 41, 84);
-} 
+  color: #37517e;
+}
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
@@ -410,9 +410,8 @@ input{
 }
 
 .btn :hover{
-   background-color: #37517e;
-    color: white;
-}
+  background-color: #37517e;
+ color: white;
 }
 /* FORM */
 
