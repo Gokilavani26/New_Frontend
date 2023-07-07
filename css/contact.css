@@ -408,6 +408,10 @@ input{
   border-radius: 40px;
  background-color: #4291e6;
 }
+
+.btn :hover{
+   background-color: #37517e;
+}
 /* FORM */
 
 /* details */
