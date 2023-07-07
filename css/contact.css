@@ -405,7 +405,8 @@ input{
   width: 120px;
   color: white;
   padding: 10px;
- background-color: #023F81;
+  border-radius: 40px;
+ background-color: #4291e6;
 }
 /* FORM */
 
@@ -476,7 +477,7 @@ text-align: center;
 }
 
 #map{
-     margin-top: 3%;
+  margin-top: 3%;
 height: 400px;
 width: 100%;
  border-radius: 20px;
