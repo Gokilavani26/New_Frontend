@@ -505,11 +505,12 @@ h6 {
   width: 25%;
 }
 
-#hero .btn-get-started:hover {
-  background: #209dd8;
-}
 #hero a{
  color: white;
+}
+
+#hero .btn-get-started:hover {
+  background: #209dd8;
 }
 
 
