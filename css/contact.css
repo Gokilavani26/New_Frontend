@@ -411,6 +411,8 @@ input{
 
 .btn :hover{
    background-color: #37517e;
+    color: white;
+}
 }
 /* FORM */
 
